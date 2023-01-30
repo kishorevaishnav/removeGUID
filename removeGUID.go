@@ -14,7 +14,7 @@ import (
 func main() {
 	if len(os.Args) < 2 {
 		fmt.Println("Usage: go run main.go <input_file> <output_file>")
-		fmt.Println("OR Usage: utf8_to_ascii <input_file> <output_file>")
+		fmt.Println("OR Usage: removeGUID <input_file> <output_file>")
 		return
 	}
 	inputFilePath := os.Args[1]
